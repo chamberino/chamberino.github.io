@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Site</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet" />
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="off-canvas position-left reveal-for-large portfolio-me" id="my-info" data-off-canvas="">
+    <div class="grid-y grid-padding-x" style="height: 100%;"><br/>
+      <div class="cell shrink"><img class="thumbnail" src="img/Chambers_Union_Resized.jpg" /></div>
+      <div class="cell auto">
+        <h5>MICHAEL CHAMBERS</h5>
+        <p class="text-light">Front-End | Full Stack JackScript Developer</p>
+        <p class="text-light">I make websites and music and food if you're hungry</p><a href="/about">Learn More →</a>
+      </div>
+    </div>
+  </div>
+  <div class="off-canvas-content" data-off-canvas-content="">
+    <div class="title-bar hide-for-large">
+      <div class="title-bar-left"><button class="menu-icon" type="button" data-toggle="my-info"></button><span class="title-bar-title">MICHAEL CHAMBERS</span>
+      </div>
+    </div>
+    <nav class="grid-container portfolio-breadcrumb">
+      <a href="index.html">← Back</a>
+    </nav>
+    <article class="grid-container portfolio-intro portfolio-project">
+      <div class="grid-x">
+        <div class="cell small-6 medium-9 large-9">
+          <h1>Michael Chambers</h1>
+          <p class="lead text-light">Front-End Web Developer</p>
+          <div class="portfolio-bio">
+            <p>I'm a web developer based in Los Angeles. After working for several years as composer's assistant to David Kitay (Clueless, Ghost World, Look Who's Talking), I decided to make a career transition and began building skills in front-end web development. I completed the Front-End Web Devlopment TechDegree at Team Treehouse and am currently finishing up the Full Stack JavaScript degree.</p>
+            <p>When I'm not programming I'm usually making music or nerding out on improv. Check out some films I've scored here. <a href="http://www.michaelchambersmusic.com">| www.michaelchambersmusic.com</a></p>
+          </div>
+        </div>
+        <div class="cell portfolio-meta small-6 medium-2 large-3">
+          <h6>Skills</h6>
+          <ul>
+            <li>JavaScript</li>
+            <li>Node</li>
+            <li>Express</li>
+            <li>CSS</li>
+            <li>HTML</li>
+            <li>Gulp</li>
+          </ul>
+          <h6>Contact Info</h6>
+          <ul>
+            <li>(562) 200-4876</li>
+            <li>mchambers175@gmail.com</li>
+          </ul>
+          <a class="button expanded" href="https://www.linkedin.com/in/michael-d-chambers/">LinkedIn</a>
+          <a class="button expanded" href="https://github.com/chamberino">GitHub</a>
+          <a class="button expanded" href="https://twitter.com/">Twitter</a>
+        </div>
+      </div>
+
+    <div class="contact" id="contact">
+      <h1 class="section-title">Contact</h1>
+      <p>I am available for hire. Send me a message with details of your project and let's collaborate!</p>
+      <form id="messageUser" action="https://formspree.io/michaelchambersmusic@gmail.com" method="POST">
+        <input required class="field" type="text" name="name" placeholder="name">
+        <input required class="field" type="email" name="_replyto" placeholder="email">
+        <ul id='autofill'>
+        </ul>
+        <textarea required id="messageForUser" name="user_message" maxlength="280" placeholder="Message"></textarea>
+        <input id='send' type="submit" value="Send">
+      </form>
+    </div>
+
+    </article>
+    <nav class="grid-container portfolio-breadcrumb">
+      <a href="index.html">← Back</a>
+    </nav>
+  </div>
+</body>
+  <script src="js/jquery.js"></script>
+  <script src="js/what-input.js"></script>
+  <script src="js/foundation.js"></script>
+  <script src="js/scripts.js"></script>
+</html>
